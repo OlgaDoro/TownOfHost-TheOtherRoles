@@ -452,6 +452,7 @@ namespace TownOfHost
                     { CustomRoles.Torch, "#FFFF99"},
                     { CustomRoles.Diseased, "#AAAAAA"},
                     { CustomRoles.TieBreaker, "#99E699"},
+                    { CustomRoles.Obvious, "#D3D3D3"},
                     { CustomRoles.Mystic, "#4D99E6"},
                     { CustomRoles.Coven, "#592e98"},
                     { CustomRoles.Veteran, "#998040"},
@@ -607,6 +608,7 @@ namespace TownOfHost
         //Impostor
         BountyHunter,
         EvilWatcher,
+        VoteStealer,
         FireWorks,
         Mafia,
         SerialKiller,
@@ -638,7 +640,7 @@ namespace TownOfHost
         MSchrodingerCat,//インポスター陣営のシュレディンガーの猫
                         //両陣営
         Guesser,
-        Watcher,
+        // Watcher,
         //Crewmate(Vanilla)
         Engineer,
         GuardianAngel,
@@ -722,8 +724,6 @@ namespace TownOfHost
         Janitor,
 
         // RANDOM ROLE HELPERS //
-        NonNks,
-        Nks,
         LoversWin,
         // Sub-roles are After 500. Meaning, all roles under this are Modifiers.
         NoSubRoleAssigned = 500,
@@ -735,6 +735,8 @@ namespace TownOfHost
         TieBreaker, // DONE
         Oblivious, // DONE
         Sleuth, // DONE
+        Watcher, // DONE
+        Obvious,
 
         // CREW MODIFIERS //
         Bewilder, // DONE
