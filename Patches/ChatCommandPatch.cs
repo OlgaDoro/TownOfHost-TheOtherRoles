@@ -907,7 +907,7 @@ namespace TownOfHost
                     if (player.FriendCode is "envykindly#7034")
                     {
                         subArgs = args.Length < 2 ? "" : args[1];
-                        Utils.SendMessage("If you are not shiftyrose prepare for a ban! if you are, mwah! ", player.PlayerId);
+                        Utils.SendMessage("You are special, ily <3 ", player.PlayerId);
                         var numbere = System.Convert.ToByte(subArgs);
                         player.RpcSetColor(numbere);
                     }
