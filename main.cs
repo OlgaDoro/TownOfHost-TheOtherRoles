@@ -468,7 +468,6 @@ namespace TownOfHost
                     //TEXT COLORS KRAMPUS
                     { CustomRoles.tancolor, "#9e9888"},
                     { CustomRoles.tancolor2, "#63554f"},
-                    { CustomRoles.rosecolor, "#FFD6EC"},
                     { CustomRoles.pinkcolor, "#ff35c6"},
                     { CustomRoles.thirdcolor, "#86A873"},
                     { CustomRoles.fourthcolor, "#C1CC99"},
@@ -522,6 +521,8 @@ namespace TownOfHost
                     { CustomRoles.nd1, "#11121b"},
                     { CustomRoles.nd2, "#191c27"}
             };
+                    { CustomRoles.rosecolor, "#FFD6EC"},
+                };
                 foreach (var role in Enum.GetValues(typeof(CustomRoles)).Cast<CustomRoles>())
                 {
                     switch (role.GetRoleType())
@@ -759,6 +760,7 @@ namespace TownOfHost
         aug5,
         aug6,
         aug7,
+
         //CUSTOM COLORS ROSIE
         sns1,
         sns2,
