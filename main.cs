@@ -519,10 +519,9 @@ namespace TownOfHost
                     { CustomRoles.cnd8, "#8E2BA9"},
                     { CustomRoles.cnd9, "#91008C"},
                     { CustomRoles.nd1, "#11121b"},
-                    { CustomRoles.nd2, "#191c27"}
-            };
-                    { CustomRoles.rosecolor, "#FFD6EC"},
-                };
+                    { CustomRoles.nd2, "#191c27"},
+                    { CustomRoles.rosecolor, "#FFD6EC"}
+                                };
                 foreach (var role in Enum.GetValues(typeof(CustomRoles)).Cast<CustomRoles>())
                 {
                     switch (role.GetRoleType())
