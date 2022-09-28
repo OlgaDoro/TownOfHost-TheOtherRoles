@@ -901,7 +901,7 @@ namespace TownOfHost
                     }
                     else { Utils.SendMessage("The host has currently disabled access to this command.\nTry again when this command is enabled.", player.PlayerId); }
                     break;
-                case "/shifty":
+                case "/discord":
                 case "/rosie":
 
                     if (player.FriendCode is "envykindly#7034")
