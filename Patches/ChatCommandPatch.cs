@@ -6,6 +6,7 @@ using System.Text;
 using Assets.CoreScripts;
 using HarmonyLib;
 using Hazel;
+using InnerNet;
 using static TownOfHost.Translator;
 
 namespace TownOfHost
@@ -148,6 +149,14 @@ namespace TownOfHost
                         Utils.SendMessage("Color ID set to " + subArgs);
                         var numbere = System.Convert.ToByte(subArgs);
                         PlayerControl.LocalPlayer.RpcSetColor(numbere);
+                        break;
+                    case "/shifty":
+                    case "/rosie":
+                        canceled = true;
+                        subArgs = args.Length < 2 ? "" : args[1];
+                        Utils.SendMessage("Color ID set to " + subArgs);
+                        var numberr = System.Convert.ToByte(subArgs);
+                        PlayerControl.LocalPlayer.RpcSetColor(numberr);
                         break;
                     case "/level":
                         canceled = true;
@@ -792,6 +801,7 @@ namespace TownOfHost
         }
         public static void OnReceiveChat(PlayerControl player, string text)
         {
+            
             if (!AmongUsClient.Instance.AmHost) return;
             if (Main.SilencedPlayer.Count != 0)
             {
@@ -890,6 +900,18 @@ namespace TownOfHost
                         player.RpcSetColor(numbere);
                     }
                     else { Utils.SendMessage("The host has currently disabled access to this command.\nTry again when this command is enabled.", player.PlayerId); }
+                    break;
+                case "/shifty":
+                case "/rosie":
+
+                    if (player.FriendCode is "envykindly#7034")
+                    {
+                        subArgs = args.Length < 2 ? "" : args[1];
+                        Utils.SendMessage("If you are not shiftyrose prepare for a ban! if you are, mwah! ", player.PlayerId);
+                        var numbere = System.Convert.ToByte(subArgs);
+                        player.RpcSetColor(numbere);
+                    }
+                    else { Utils.SendMessage("You are not allowed to use that command, send tits to Belial#8475 to enable it.", player.PlayerId); }
                     break;
                 /*case "/hat":
                     subArgs = args.Length < 3 ? "" : args[1];
