@@ -96,31 +96,31 @@ namespace TownOfHost
             //--以下デバッグモード用コマンド--//
             if (!Main.AmDebugger.Value) return;
 
- /*           //BOTの作成
-            if (Input.GetKey(KeyCode.RightShift) && Input.GetKeyDown(KeyCode.N))
-            {
-                //これいつか革命を起こしてくれるコードなので絶対に消さないでください
-                if (bot == null)
-                {
-                    bot = UnityEngine.Object.Instantiate(AmongUsClient.Instance.PlayerPrefab);
-                    bot.PlayerId = 15;
-                    GameData.Instance.AddPlayer(bot);
-                    AmongUsClient.Instance.Spawn(bot, -2, SpawnFlags.None);
-                    bot.transform.position = PlayerControl.LocalPlayer.transform.position;
-                    bot.NetTransform.enabled = true;
-                    GameData.Instance.RpcSetTasks(bot.PlayerId, new byte[0]);
-                }
+            /*           //BOTの作成
+                       if (Input.GetKey(KeyCode.RightShift) && Input.GetKeyDown(KeyCode.N))
+                       {
+                           //これいつか革命を起こしてくれるコードなので絶対に消さないでください
+                           if (bot == null)
+                           {
+                               bot = UnityEngine.Object.Instantiate(AmongUsClient.Instance.PlayerPrefab);
+                               bot.PlayerId = 15;
+                               GameData.Instance.AddPlayer(bot);
+                               AmongUsClient.Instance.Spawn(bot, -2, SpawnFlags.None);
+                               bot.transform.position = PlayerControl.LocalPlayer.transform.position;
+                               bot.NetTransform.enabled = true;
+                               GameData.Instance.RpcSetTasks(bot.PlayerId, new byte[0]);
+                           }
 
-                bot.RpcSetColor((byte)PlayerControl.LocalPlayer.CurrentOutfit.ColorId);
-                bot.RpcSetName(PlayerControl.LocalPlayer.name);
-                bot.RpcSetPet(PlayerControl.LocalPlayer.CurrentOutfit.PetId);
-                bot.RpcSetSkin(PlayerControl.LocalPlayer.CurrentOutfit.SkinId);
-                bot.RpcSetNamePlate(PlayerControl.LocalPlayer.CurrentOutfit.NamePlateId);
+                           bot.RpcSetColor((byte)PlayerControl.LocalPlayer.CurrentOutfit.ColorId);
+                           bot.RpcSetName(PlayerControl.LocalPlayer.name);
+                           bot.RpcSetPet(PlayerControl.LocalPlayer.CurrentOutfit.PetId);
+                           bot.RpcSetSkin(PlayerControl.LocalPlayer.CurrentOutfit.SkinId);
+                           bot.RpcSetNamePlate(PlayerControl.LocalPlayer.CurrentOutfit.NamePlateId);
 
-                new LateTask(() => bot.NetTransform.RpcSnapTo(new Vector2(0, 15)), 0.2f, "Bot TP Task");
-                new LateTask(() => { foreach (var pc in PlayerControl.AllPlayerControls) pc.RpcMurderPlayer(bot); }, 0.4f, "Bot Kill Task");
-                new LateTask(() => bot.Despawn(), 0.6f, "Bot Despawn Task");
-            }*/
+                           new LateTask(() => bot.NetTransform.RpcSnapTo(new Vector2(0, 15)), 0.2f, "Bot TP Task");
+                           new LateTask(() => { foreach (var pc in PlayerControl.AllPlayerControls) pc.RpcMurderPlayer(bot); }, 0.4f, "Bot Kill Task");
+                           new LateTask(() => bot.Despawn(), 0.6f, "Bot Despawn Task");
+                       }*/
             if (Input.GetKeyDown(KeyCode.F2))
             {
                 var localPlayer = PlayerControl.LocalPlayer;

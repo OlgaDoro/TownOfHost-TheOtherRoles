@@ -359,6 +359,17 @@ namespace TownOfHost
                     RPC.RemoveExecutionerKey(Executioner);
                     Utils.NotifyRoles();
                 }
+
+                if (data.Character.Is(CustomRoles.Camouflager) && Main.CheckShapeshift[data.Character.PlayerId])
+                {
+                    Logger.Info($"Camouflager Revert ShapeShift", "Camouflager");
+                    foreach (PlayerControl revert in PlayerControl.AllPlayerControls)
+                    {
+                        if (revert.Is(CustomRoles.Phantom) || revert == null || revert.Data.IsDead || revert.Data.Disconnected || revert == data.Character) continue;
+                        revert.RpcRevertShapeshift(true);
+                    }
+                    Camouflager.DidCamo = false;
+                }
                 if (Main.GuardianAngelTarget.ContainsValue(data.Character.PlayerId))
                 {
                     byte GA = 0x73;
