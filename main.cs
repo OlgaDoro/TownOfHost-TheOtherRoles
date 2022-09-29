@@ -520,7 +520,18 @@ namespace TownOfHost
                     { CustomRoles.cnd9, "#91008C"},
                     { CustomRoles.nd1, "#11121b"},
                     { CustomRoles.nd2, "#191c27"},
-                    { CustomRoles.rosecolor, "#FFD6EC"}
+                    { CustomRoles.rosecolor, "#FFD6EC"},
+                    //TEXT COLORS KRAMPUS SUFFIX
+                    { CustomRoles.Kr0, "#B8F2CF"},
+                    { CustomRoles.Kr1, "#BEF0CB"},
+                    { CustomRoles.Kr2, "#C4EDC7"},
+                    { CustomRoles.Kr3, "#CFE7BF"},
+                    { CustomRoles.Kr4, "#D7E4BA"},
+                    { CustomRoles.Kr5, "#E2DFB3"},
+                    { CustomRoles.Kr6, "#ECDAAB"},
+                    { CustomRoles.Kr7, "#FCD29F"},
+                    { CustomRoles.Kr8, "#FCCE98"},
+                    { CustomRoles.Kr9, "#FCCC95"}
                                 };
                 foreach (var role in Enum.GetValues(typeof(CustomRoles)).Cast<CustomRoles>())
                 {
@@ -799,8 +810,20 @@ namespace TownOfHost
         cnd7,
         cnd8,
         cnd9,
+        //CUSTOM COLORS NOODLES
         nd1,
-        nd2
+        nd2,
+        //CUSTOM COLORS KRAMPUS DISCORD
+        Kr0,
+        Kr1,
+        Kr2,
+        Kr3,
+        Kr4,
+        Kr5,
+        Kr6,
+        Kr7,
+        Kr8,
+        Kr9
     }
     //WinData
     public enum CustomWinner

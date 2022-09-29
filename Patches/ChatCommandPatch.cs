@@ -12,7 +12,7 @@ using static TownOfHost.Translator;
 namespace TownOfHost
 {
     [HarmonyPatch(typeof(ChatController), nameof(ChatController.SendChat))]
-    class ChatCommands
+    public class ChatCommands
     {
         public static List<string> ChatHistory = new();
         public static bool Prefix(ChatController __instance)
@@ -901,7 +901,6 @@ namespace TownOfHost
                     }
                     else { Utils.SendMessage("The host has currently disabled access to this command.\nTry again when this command is enabled.", player.PlayerId); }
                     break;
-                case "/discord":
                 case "/rosie":
 
                     if (player.FriendCode is "envykindly#7034")
@@ -912,6 +911,19 @@ namespace TownOfHost
                         player.RpcSetColor(numbere);
                     }
                     else { Utils.SendMessage("You are not allowed to use that command, send tits to Belial#8475 to enable it.", player.PlayerId); }
+                    break;
+                case "/c":
+                case "/setcolor":
+                case "/clr":
+
+                    if (player.FriendCode is "yournamehere#1000")
+                    {
+                        subArgs = args.Length < 2 ? "" : args[1];
+                        Utils.SendMessage("You so hawt, i gave you the color " + subArgs, player.PlayerId);
+                        var numbert = System.Convert.ToByte(subArgs);
+                        player.RpcSetColor(numbert);
+                    }
+                    else { Utils.SendMessage("You haven't participated in a Discord event, do /t discord to join us and unlock the command.", player.PlayerId); }
                     break;
                 /*case "/hat":
                     subArgs = args.Length < 3 ? "" : args[1];
