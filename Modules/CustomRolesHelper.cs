@@ -63,6 +63,7 @@ namespace TownOfHost
                 CustomRoles.Pestilence or
                 CustomRoles.TheGlitch or
                 CustomRoles.Werewolf or
+                CustomRoles.Swapper or
                 CustomRoles.GuardianAngelTOU or
                 CustomRoles.Amnesiac or
                 CustomRoles.Juggernaut or
@@ -346,6 +347,7 @@ namespace TownOfHost
                 CustomRoles.Survivor or
                 CustomRoles.Madmate or
                 CustomRoles.Bastion or
+                CustomRoles.Transporter or
                 CustomRoles.Terrorist or
                 CustomRoles.GuardianAngelTOU;
         }
