@@ -15,3 +15,8 @@ bin/
 .vs/TownOfHost/v17/.futdcache.v2
 .vs/TownOfHost/v17/.suo
 .vs/TownOfHost/v17/HierarchyCache.v1.txt
+*.lock
+.vs/TownOfHost-TheOtherRoles/v17/.suo
+*.v2
+*.v2
+.vs/TownOfHost/v17/.suo
