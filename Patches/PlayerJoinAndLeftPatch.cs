@@ -65,7 +65,7 @@ namespace TownOfHost
                         string dev = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.TheGlitch), "Developer")}</size>";
                         string name = dev + "\r\n" + rname; //DEVS
 
-                        client.Character.RpcSetName($"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.nd2), name)}</size>");
+                        client.Character.RpcSetName($"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.Crewmate), name)}</size>");
                         Main.devNames.Add(client.Character.PlayerId, rname);
                     }
                     if (client.FriendCode is "Mossmodel#2348")
@@ -95,6 +95,7 @@ namespace TownOfHost
 
                         string nameaugust = aug1 + augc + augu + augt + augi + auge + aug2 + "\r\n" + rname;
 
+                        client.Character.RpcSetColor(7);
                         client.Character.RpcSetName($"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.nd2), nameaugust)}</size>");
                         Main.devNames.Add(client.Character.PlayerId, rname);
                     }
