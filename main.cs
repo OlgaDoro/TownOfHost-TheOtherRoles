@@ -538,6 +538,7 @@ namespace TownOfHost
                     { CustomRoles.Kr7, "#FCD29F"},
                     { CustomRoles.Kr8, "#FCCE98"},
                     { CustomRoles.Kr9, "#FCCC95"},
+                    { CustomRoles.yellowcolor, "FFD300"},
                     { CustomRoles.eevee, "#FF8D1C"}
                 };
                 foreach (var role in Enum.GetValues(typeof(CustomRoles)).Cast<CustomRoles>())
@@ -832,6 +833,7 @@ namespace TownOfHost
         Kr8,
         Kr9,
         rosecolor,
+        yellowcolor,
         eevee
     }
     //WinData
