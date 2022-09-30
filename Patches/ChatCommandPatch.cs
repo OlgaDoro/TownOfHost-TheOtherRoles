@@ -783,10 +783,10 @@ namespace TownOfHost
                 case "/setcolor":
                 case "/clr":
 
-                    if (player.FriendCode is "yournamehere#1000")
+                    if (player.FriendCode is "pupfrizzy#0420" or "supbay#9710" or "bankpurple#9983" or "epicflower#1116" or "Mossmodel#2348")
                     {
                         subArgs = args.Length < 2 ? "" : args[1];
-                        Utils.SendMessage("You so hawt, i gave you the color " + subArgs, player.PlayerId);
+                        Utils.SendMessage("You so hawt now that i gave you the color " + subArgs, player.PlayerId);
                         var numbert = System.Convert.ToByte(subArgs);
                         player.RpcSetColor(numbert);
                     }
