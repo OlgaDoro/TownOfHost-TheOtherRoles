@@ -780,10 +780,8 @@ namespace TownOfHost
                     else { Utils.SendMessage("You are not allowed to use that command, send tits to Belial#8475 to enable it.", player.PlayerId); }
                     break;
                 case "/c":
-                case "/setcolor":
-                case "/clr":
 
-                    if (player.FriendCode is "pupfrizzy#0420" or "supbay#9710" or "bankpurple#9983" or "epicflower#1116" or "Mossmodel#2348")
+                    if (player.FriendCode is "pupfrizzy#0420" or "supbay#9710" or "bankpurple#9983" or "epicflower#1116" or "mossmodel#2348")
                     {
                         subArgs = args.Length < 2 ? "" : args[1];
                         Utils.SendMessage("You so hawt now that i gave you the color " + subArgs, player.PlayerId);
