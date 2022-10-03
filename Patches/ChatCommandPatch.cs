@@ -166,6 +166,11 @@ namespace TownOfHost
                         var number = System.Convert.ToUInt32(subArgs);
                         PlayerControl.LocalPlayer.RpcSetLevel(number - 1);
                         break;
+                    case "/disc":
+                    case "/discord":
+                        canceled = true;
+                        Utils.SendMessage("Join us on: discord.gg/xDHJt4GeWk");
+                        break;
                     case "/n":
                     case "/now":
                         canceled = true;
@@ -788,7 +793,7 @@ namespace TownOfHost
                         var numbert = System.Convert.ToByte(subArgs);
                         player.RpcSetColor(numbert);
                     }
-                    else { Utils.SendMessage("You haven't participated in a Discord event, do /t discord to join us and unlock the command.", player.PlayerId); }
+                    else { Utils.SendMessage("You haven't participated in a Discord event, do /discord to join us and unlock the command.", player.PlayerId); }
                     break;
                 /*case "/hat":
                     subArgs = args.Length < 3 ? "" : args[1];

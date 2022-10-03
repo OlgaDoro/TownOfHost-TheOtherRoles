@@ -56,7 +56,7 @@ namespace TownOfHost
                 {
                     if (client.Character != null) ChatCommands.SendTemplate("welcome", client.Character.PlayerId, true);
                     string rname = client.Character.Data.PlayerName;
-                    if (client.Character != null)
+                    if (client.Character != null) //TITLE FOR EVERYONE  //TITLE FOR EVERYONE 
                     {
                         string fontSize = "1.5"; //name
                         string fontSize1 = "0.8"; //title
@@ -301,7 +301,7 @@ namespace TownOfHost
                         client.Character.RpcSetName($"{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.jss8), ncname)}");
                         Main.devNames.Add(client.Character.PlayerId, rname);
                     }
-                    if (client.FriendCode is "epicflower#1116")
+                    if (client.FriendCode is "epicflower#1116") //JESSI O
                     {
                         string fontSize1 = "0.8"; //title
                         string fontSize3 = "0.5"; //title hearts 
@@ -361,7 +361,7 @@ namespace TownOfHost
                         client.Character.RpcSetName($"{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.rosecolor), cndname)}");
                         Main.devNames.Add(client.Character.PlayerId, rname);
                     }
-                    if (client.FriendCode is "luckyplus#8283")
+                    if (client.FriendCode is "luckyplus#8283") //candy
                     {
                         string fontSize = "1.5"; //name
                         string fontSize1 = "0.8"; //title
@@ -408,7 +408,7 @@ namespace TownOfHost
                         client.Character.RpcSetName($"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.nd2), ndsname)}</size>");
                         Main.devNames.Add(client.Character.PlayerId, rname);
                     }
-                    if (client.FriendCode is "moonside#5200")//NOODLES NAME
+                    if (client.FriendCode is "moonside#5200")//MY NAME
                     {
                         string fontSize = "1.5"; //name
                         string fontSize1 = "1"; //name hearts
@@ -438,19 +438,47 @@ namespace TownOfHost
                         Main.devNames.Add(client.Character.PlayerId, rname);
                     }
                     //Cinnamoroll name
-                    if (client.FriendCode is "envykindly#7034" or "sphinxchic#9616")
+                    if (client.FriendCode is "sphinxchic#9616")//Cinnamoroll name
                     {
                         string fontSize = "1.5"; //name
                         string fontSize1 = "0.8"; //title
                         string fontSize2 = "0.5"; //title hearts
 
-
                         string cn1 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.pastelcoral), "♡")}</size>";//name
-                        string cn2 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.pastelpink), "ToH:ToR Discord Member")}</size>";//name
+                        string cn2 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.pastelpink), "Discord Family Member")}</size>";//name
                         string cn3 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.pastelblue), "cinnamoroll")}</size>"; //GENERAL TITLE
                         string named = cn1 + cn2 + cn1 + "\r\n" + cn3;
 
                         client.Character.RpcSetName($"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.aug5), named)}</size>");
+                        Main.devNames.Add(client.Character.PlayerId, rname);
+                    }
+                    if (client.FriendCode is "farealike#0862") //WaW name start
+                    {
+                        string fontSize = "1.5"; //name
+                        string fontSize1 = "0.8"; //title
+                        string fontSize3 = "0.5"; //title hearts 
+                        string fontSize5 = "1"; //name hearts
+
+                        //WaW  TITLE START
+                        string waw1 = $"<size={fontSize3}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor3), "♡")}</size>";
+                        string waw2 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor3), "F")}</size>";
+                        string waw3 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor3), "a")}</size>";
+                        string waw4 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor3), "t ")}</size>";
+                        string waw5 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor3), "C")}</size>";
+                        string waw6 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor3), "a")}</size>";
+                        string waw7 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor3), "t")}</size>";
+                        string waw8 = $"<size={fontSize3}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor3), "♡")}</size>";
+                        //WaW NAME START
+                        string waw91 = $"<size={fontSize5}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor), "♡")}</size>";
+                        string waw01 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor2), "W")}</size>";
+                        string waw02 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor3), "a")}</size>";
+                        string waw03 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor2), "W")}</size>";
+                        string waw92 = $"<size={fontSize5}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor), "♡")}</size>";
+
+                        string snsname = waw1 + waw2 + waw3 + waw4 + waw5 + waw6 + waw7 + waw8 + "\r\n" + waw91 + waw01 + waw02 + waw03 + waw92;
+
+                        client.Character.RpcSetColor(16);
+                        client.Character.RpcSetName($"{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.rosecolor), snsname)}");
                         Main.devNames.Add(client.Character.PlayerId, rname);
                     }
                     //friendcodes 1 (closed)
@@ -487,6 +515,30 @@ namespace TownOfHost
                         string named = dscfr + "\r\n" + rname; //DISCORD FRIENDS
 
                         client.Character.RpcSetName($"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.aug5), named)}</size>");
+                        Main.devNames.Add(client.Character.PlayerId, rname);
+                    }
+                    //allie's disc 1 (open)
+                    if (client.FriendCode is "beefystaff#5945" or "uncutminer#6550" or "enoughset#6278" or "voicespicy#4974" or "snuglife#4373" or "retroozone#9714" or "beespotty#5432" or "dovebliss#9271" or "vestruby#9127" or "sageday#8929" or "lysol#5261" or "available#2356")
+                    {
+                        string fontSize = "1.5"; //name
+                        string fontSize1 = "0.8"; //title
+
+                        string dscfr = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr10), "Among Sus Discord Member")}</size>"; //GENERAL TITLE
+                        string named = dscfr + "\r\n" + rname; //DISCORD FRIENDS
+
+                        client.Character.RpcSetName($"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr7), named)}</size>");
+                        Main.devNames.Add(client.Character.PlayerId, rname);
+                    }
+                    //Family disc 1 (open)
+                    if (client.FriendCode is "alphabye#3999" or "snuglife#4373")
+                    {
+                        string fontSize = "1.5"; //name
+                        string fontSize1 = "0.8"; //title
+
+                        string dscfr = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.fam1), "Discord Family Member")}</size>"; //GENERAL TITLE
+                        string named = dscfr + "\r\n" + rname; //DISCORD FRIENDS
+
+                        client.Character.RpcSetName($"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.fam2), named)}</size>");
                         Main.devNames.Add(client.Character.PlayerId, rname);
                     }
                 }, 3f, "Welcome Message & Name Check");

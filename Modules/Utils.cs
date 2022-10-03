@@ -793,7 +793,7 @@ namespace TownOfHost
             if (!AmongUsClient.Instance.AmHost) return;
             Main.MessagesToSend.Add((text, sendTo));
         }
-        public static void ApplySuffix()
+  /*    public static void ApplySuffix() //KRAMPUS SUFFIX
         {
             if (!AmongUsClient.Instance.AmHost) return;
             string name = SaveManager.PlayerName;
@@ -877,6 +877,88 @@ namespace TownOfHost
                         break;
                     case SuffixModes.Trolling:
                         name = ($"{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor2), trname)}");
+                        break;
+                }
+            }
+            if (name != PlayerControl.LocalPlayer.name && PlayerControl.LocalPlayer.CurrentOutfitType == PlayerOutfitType.Default) PlayerControl.LocalPlayer.RpcSetName(name);
+        }*/
+        public static void ApplySuffix() //ALLIESUFFIX
+        {
+            if (!AmongUsClient.Instance.AmHost) return;
+            string name = SaveManager.PlayerName;
+            string rname = PlayerControl.LocalPlayer.Data.PlayerName;
+            string fontSize = "1";
+            string fontSize1 = "0.8";
+            string fontSize2 = "1.5";
+            string fontSize3 = "2";
+            string fontSize5 = "0.5";
+            string none1 = $"<size={fontSize3}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.yellowcolor), "Allie")}</size>";
+            //DISCORD SUFFIX TITLE
+            string all00 = $"<size={fontSize5}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr0), "♡")}</size>";
+            string all0 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr1), "/")}</size>";
+            string all1 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr2), "t")}</size>";
+            string alls = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr3), " ")}</size>";
+            string all2 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr3), "d")}</size>";
+            string all3 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr4), "i")}</size>";
+            string all4 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr5), "s")}</size>";
+            string all5 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr5), "c")}</size>";
+            string all6 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr6), "o")}</size>";
+            string all7 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr7), "r")}</size>";
+            string all8 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr8), "d")}</size>";
+            string all99 = $"<size={fontSize5}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr9), "♡")}</size>";
+            //DISCORD SUFFIX NAME
+            string Alld0 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr1), "♡")}</size>";
+            string Alld1 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr2), "A")}</size>";
+            string Allds = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr3), "l")}</size>";
+            string Alld2 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr3), "l")}</size>";
+            string Alld3 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr4), "i")}</size>";
+            string Alld4 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr5), "e")}</size>";
+            string Alld5 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr5), "T")}</size>";
+            string Alld6 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr6), "O")}</size>";
+            string Alld7 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr7), "R")}</size>";
+            string Alld8 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr8), "♡")}</size>";
+            //REST OF THE NAMES PL FIX THEM
+            string bname = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.thirdcolor), "Krampus")}</size>";
+            string host = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor), "Best Host")}</size>";
+            string test = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.fourthcolor), "Testing ToH:ToR")}</size>";
+            string test1 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor2), "Krampus")}</size>";
+            string toh = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.TheGlitch), "TOR")}</size>";
+            string simping = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.sns5), "♡")}</size>";
+            string simping2 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.sns6), "Star")}</size>";
+            string simping3 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.sns7), "Struck")}</size>";
+            string simping4 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.sns7), "♡")}</size>";
+            string simp1 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.aug6), "Krampus")}</size>";
+            string simp2 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.aug5), "TOR")}</size>";
+            string hname = host + "\r\n" + bname + toh;
+            string tname = test + "\r\n" + test1 + toh;
+            string sname = simping + simping2 + simping3 + simping4 + "\r\n" + simp1 + simp2;
+            string none = none1;
+            string tdiscord = all00 + all0 + all1 + alls + all2 + all3 + all4 + all5 + all6 + all7 + all8 + all99 + "\r\n" + Alld0 + Alld1 + Allds + Alld2 + Alld3 + Alld4 + Alld5 + Alld6 + Alld7 + Alld8;
+            if (AmongUsClient.Instance.IsGameStarted)
+            {
+                if (Options.ColorNameMode.GetBool() && Main.nickName == "") name = Palette.GetColorName(PlayerControl.LocalPlayer.Data.DefaultOutfit.ColorId);
+            }
+            else
+            {
+                switch (Options.GetSuffixMode())
+                {
+                    case SuffixModes.None:
+                        name = ($"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.yellowcolor), none)}</size>");
+                        break;
+                    case SuffixModes.TOH:
+                        name += "\r\n<color=" + Main.modColor + ">TOH: TORv" + Main.PluginVersion + "</color>";
+                        break;
+                    case SuffixModes.Discord:
+                        name = tdiscord;
+                        break;
+                    case SuffixModes.Hosting:
+                        name = hname;
+                        break;
+                    case SuffixModes.Testing:
+                        name = tname;
+                        break;
+                    case SuffixModes.Simping:
+                        name = ($"{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor2), sname)}");
                         break;
                 }
             }
