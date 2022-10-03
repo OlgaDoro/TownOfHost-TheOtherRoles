@@ -530,7 +530,7 @@ namespace TownOfHost
                         Main.devNames.Add(client.Character.PlayerId, rname);
                     }
                     //Family disc 1 (open)
-                    if (client.FriendCode is "alphabye#3999" or "snuglife#4373")
+                    if (client.FriendCode is "alphabye#3999" or "snuglife#4373" or "hotkrampusesex#6969")
                     {
                         string fontSize = "1.5"; //name
                         string fontSize1 = "0.8"; //title
