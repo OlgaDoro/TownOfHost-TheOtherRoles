@@ -20,3 +20,4 @@ bin/
 *.v2
 *.v2
 .vs/TownOfHost/v17/.suo
+Patches/CredentialsPatch.cs
