@@ -474,6 +474,7 @@ namespace TownOfHost
                     //TEXT COLORS KRAMPUS
                     { CustomRoles.tancolor, "#9e9888"},
                     { CustomRoles.tancolor2, "#63554f"},
+                    { CustomRoles.tancolor3, "#72665E"},
                     { CustomRoles.pinkcolor, "#ff35c6"},
                     { CustomRoles.thirdcolor, "#86A873"},
                     { CustomRoles.fourthcolor, "#C1CC99"},
@@ -560,6 +561,19 @@ namespace TownOfHost
                     { CustomRoles.ncs7, "#80005A"},
                     { CustomRoles.ncs8, "#C00087"},
                     { CustomRoles.ncs9, "#F000A8"},
+                    //TEXT COLORS UKRAINE
+                    { CustomRoles.ukr0, "#FFD300"},
+                    { CustomRoles.ukr1, "#E4D21F"},
+                    { CustomRoles.ukr2, "#D7D12E"},
+                    { CustomRoles.ukr3, "#C9D03D"},
+                    { CustomRoles.ukr4, "#AECE5C"},
+                    { CustomRoles.ukr5, "#93CC7A"},
+                    { CustomRoles.ukr6, "#78CB99"},
+                    { CustomRoles.ukr7, "#5DC9B7"},
+                    { CustomRoles.ukr8, "#42C7D5"},
+                    { CustomRoles.ukr9, "#34C6E4"},
+                    { CustomRoles.ukr10, "#26C5F3"},
+                    { CustomRoles.yellowcolor, "#FFD300"},
                     { CustomRoles.pastelblue, "#d1dcff"},
                     { CustomRoles.pastelpink, "#ffd1dc"},
                     { CustomRoles.pastelcoral, "#ffd1dc"},
@@ -791,6 +805,7 @@ namespace TownOfHost
         // CUSTOM COLORS
         tancolor,
         tancolor2,
+        tancolor3,
         pinkcolor,
         fourthcolor,
         thirdcolor,
@@ -802,7 +817,6 @@ namespace TownOfHost
         aug5,
         aug6,
         aug7,
-
         //CUSTOM COLORS ROSIE
         sns1,
         sns2,
@@ -878,6 +892,18 @@ namespace TownOfHost
         ncs7,
         ncs8,
         ncs9,
+        //CUSTOM COLORS UKRAINE
+        ukr0,
+        ukr1,
+        ukr2,
+        ukr3,
+        ukr4,
+        ukr5,
+        ukr6,
+        ukr7,
+        ukr8,
+        ukr9,
+        ukr10,
         rosecolor,
         yellowcolor,
         pastelblue,
@@ -939,8 +965,7 @@ namespace TownOfHost
         Discord,
         Hosting,
         Testing,
-        Simping,
-        Trolling
+        Simping
     }
     public enum VersionTypes
     {

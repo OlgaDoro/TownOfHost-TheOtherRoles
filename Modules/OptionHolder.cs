@@ -383,8 +383,7 @@ namespace TownOfHost
             "SuffixMode.Discord",
             "SuffixMode.Hosting",
             "SuffixMode.Testing",
-            "SuffixMode.Simping",
-            "SuffixMode.Trolling"
+            "SuffixMode.Simping"
         };
         public static SuffixModes GetSuffixMode()
         {
