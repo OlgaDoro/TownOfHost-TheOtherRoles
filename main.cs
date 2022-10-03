@@ -560,7 +560,9 @@ namespace TownOfHost
                     { CustomRoles.ncs7, "#80005A"},
                     { CustomRoles.ncs8, "#C00087"},
                     { CustomRoles.ncs9, "#F000A8"},
-                    { CustomRoles.yellowcolor, "#FFD300"},
+                    { CustomRoles.pastelblue, "#d1dcff"},
+                    { CustomRoles.pastelpink, "#ffd1dc"},
+                    { CustomRoles.pastelcoral, "#ffd1dc"},
                     { CustomRoles.eevee, "#FF8D1C"}
                 };
                 foreach (var role in Enum.GetValues(typeof(CustomRoles)).Cast<CustomRoles>())
@@ -878,6 +880,9 @@ namespace TownOfHost
         ncs9,
         rosecolor,
         yellowcolor,
+        pastelblue,
+        pastelpink,
+        pastelcoral,
         eevee
     }
     //WinData
