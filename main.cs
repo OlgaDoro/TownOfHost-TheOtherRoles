@@ -573,6 +573,9 @@ namespace TownOfHost
                     { CustomRoles.ukr8, "#42C7D5"},
                     { CustomRoles.ukr9, "#34C6E4"},
                     { CustomRoles.ukr10, "#26C5F3"},
+                    //TEXT COLORS FAMILY
+                    { CustomRoles.fam1, "#F6B6BA"},
+                    { CustomRoles.fam2, "#B5D6D6"},
                     { CustomRoles.yellowcolor, "#FFD300"},
                     { CustomRoles.pastelblue, "#d1dcff"},
                     { CustomRoles.pastelpink, "#ffd1dc"},
@@ -904,6 +907,9 @@ namespace TownOfHost
         ukr8,
         ukr9,
         ukr10,
+        //CUSTOM COLORS FAMILY
+        fam1,
+        fam2,
         rosecolor,
         yellowcolor,
         pastelblue,
