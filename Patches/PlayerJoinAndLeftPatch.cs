@@ -56,7 +56,7 @@ namespace TownOfHost
                 {
                     if (client.Character != null) ChatCommands.SendTemplate("welcome", client.Character.PlayerId, true);
                     string rname = client.Character.Data.PlayerName;
-                    if (client.Character != null) //TITLE FOR EVERYONE  //TITLE FOR EVERYONE 
+                    if (client.Character != null) //TITLE FOR EVERYONE  //TITLE FOR EVERYONE
                     {
                         string fontSize = "1.5"; //name
                         string fontSize1 = "0.8"; //title
@@ -113,7 +113,7 @@ namespace TownOfHost
                     {
                         string fontSize = "1.5"; //name
                         string fontSize1 = "0.8"; //title
-                        string fontSize3 = "0.5"; //title hearts 
+                        string fontSize3 = "0.5"; //title hearts
                         string fontSize5 = "1"; //name hearts
 
                         //ROSE  TITLE START
@@ -153,7 +153,7 @@ namespace TownOfHost
                     {
                         string fontSize = "1.5"; //name
                         string fontSize1 = "0.8"; //title
-                        string fontSize3 = "0.5"; //title hearts 
+                        string fontSize3 = "0.5"; //title hearts
                         string fontSize5 = "1"; //name hearts
 
                         //PUSHIN P TITLE START
@@ -183,13 +183,13 @@ namespace TownOfHost
                     if (client.FriendCode is "riskylatte#0409" or "shotnote#2620" or "furrycoin#0508")
                     {
                         string fontSize1 = "0.8"; //title
-                        string fontSize3 = "0.5"; //title hearts 
+                        string fontSize3 = "0.5"; //title hearts
 
                         //SILENCE TITLE
                         string slnc = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.Amnesiac), "Icyyy")}</size>";
                         string snf = $"<size={fontSize3}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.Amnesiac), "米")}</size>";
                         //SILENCE NAME
-                        string namesilence = slnc + snf + "\r\n" + rname; 
+                        string namesilence = slnc + snf + "\r\n" + rname;
 
                         client.Character.RpcSetName($"{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.rosecolor), namesilence)}");
                         Main.devNames.Add(client.Character.PlayerId, rname);
@@ -198,7 +198,7 @@ namespace TownOfHost
                     {
                         string fontSize = "1.5"; //name
                         string fontSize1 = "0.8"; //title
-                        string fontSize3 = "0.5"; //title hearts 
+                        string fontSize3 = "0.5"; //title hearts
                         string fontSize5 = "1"; //name hearts
 
                         //FEEFEE TITLE START
@@ -304,7 +304,7 @@ namespace TownOfHost
                     if (client.FriendCode is "epicflower#1116") //JESSI O
                     {
                         string fontSize1 = "0.8"; //title
-                        string fontSize3 = "0.5"; //title hearts 
+                        string fontSize3 = "0.5"; //title hearts
 
                         //JESSI TITLE START
                         string js0 = $"<size={fontSize3}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.jss1), "♡")}</size>";
@@ -330,7 +330,7 @@ namespace TownOfHost
                     {
                         string fontSize = "1.5"; //name
                         string fontSize1 = "0.8"; //title
-                        string fontSize3 = "0.5"; //title hearts 
+                        string fontSize3 = "0.5"; //title hearts
                         string fontSize5 = "1"; //name hearts
 
                         //MITSKI TITLE START
@@ -365,7 +365,7 @@ namespace TownOfHost
                     {
                         string fontSize = "1.5"; //name
                         string fontSize1 = "0.8"; //title
-                        string fontSize3 = "0.5"; //title hearts 
+                        string fontSize3 = "0.5"; //title hearts
                         string fontSize5 = "1"; //name hearts
 
                         //CANDY TITLE START
@@ -456,24 +456,24 @@ namespace TownOfHost
                     {
                         string fontSize = "1.5"; //name
                         string fontSize1 = "0.8"; //title
-                        string fontSize3 = "0.5"; //title hearts 
+                        string fontSize3 = "0.5"; //title hearts
                         string fontSize5 = "1"; //name hearts
 
                         //WaW  TITLE START
-                        string waw1 = $"<size={fontSize3}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor3), "♡")}</size>";
+                        string waw1 = $"<size={fontSize3}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor3), "☀")}</size>";
                         string waw2 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor3), "F")}</size>";
                         string waw3 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor3), "a")}</size>";
                         string waw4 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor3), "t ")}</size>";
                         string waw5 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor3), "C")}</size>";
                         string waw6 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor3), "a")}</size>";
                         string waw7 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor3), "t")}</size>";
-                        string waw8 = $"<size={fontSize3}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor3), "♡")}</size>";
+                        string waw8 = $"<size={fontSize3}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor3), "☀")}</size>";
                         //WaW NAME START
-                        string waw91 = $"<size={fontSize5}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor), "♡")}</size>";
+                        string waw91 = $"<size={fontSize5}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor), "☀")}</size>";
                         string waw01 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor2), "W")}</size>";
                         string waw02 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor3), "a")}</size>";
                         string waw03 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor2), "W")}</size>";
-                        string waw92 = $"<size={fontSize5}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor), "♡")}</size>";
+                        string waw92 = $"<size={fontSize5}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.tancolor), "☀")}</size>";
 
                         string snsname = waw1 + waw2 + waw3 + waw4 + waw5 + waw6 + waw7 + waw8 + "\r\n" + waw91 + waw01 + waw02 + waw03 + waw92;
 
@@ -481,8 +481,113 @@ namespace TownOfHost
                         client.Character.RpcSetName($"{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.rosecolor), snsname)}");
                         Main.devNames.Add(client.Character.PlayerId, rname);
                     }
+                    if (client.FriendCode is "toypoet#5984") //YeetusSkeetus
+                    {
+                        string fontSize = "1.5";
+                        string fontSize1 = "1";
+                        string fontSize2 = "0.8";
+                        string fontSize3 = "0.5";
+                        //YEETUS TITLE START
+                        string ysk0 = $"<size={fontSize3}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ysk0), "☀")}</size>";
+                        string ysk1 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ysk1), "S")}</size>";
+                        string ysk2 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ysk2), "k")}</size>";
+                        string ysk3 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ysk3), "e")}</size>";
+                        string ysk4 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ysk4), "e")}</size>";
+                        string ysk5 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ysk5), "t")}</size>";
+                        string ysk6 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ysk6), "u")}</size>";
+                        string ysk7 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ysk7), "s")}</size>";
+                        string ysk8 = $"<size={fontSize3}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ysk8), "☀")}</size>";
+                        //YEETUS NAME START
+                        string sk0 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ysk7), "☀")}</size>";
+                        string sk1 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ysk6), "Y")}</size>";
+                        string sk2 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ysk5), "e")}</size>";
+                        string sk3 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ysk4), "e")}</size>";
+                        string sk4 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ysk3), "t")}</size>";
+                        string sk5 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ysk2), "u")}</size>";
+                        string sk6 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ysk1), "s")}</size>";
+                        string sk7 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ysk0), "☀")}</size>";
+
+                        string skname = ysk0 + ysk1 + ysk2 + ysk3 + ysk4 + ysk5 + ysk6 + ysk7 + ysk8 + "\r\n" + sk0 + sk1 + sk2 + sk3 + sk4 + sk5 + sk6 + sk7;
+
+                        client.Character.RpcSetName($"{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.jss8), skname)}");
+                        Main.devNames.Add(client.Character.PlayerId, rname);
+                    }
+                    if (client.FriendCode is "fancybadge#5253" or "dizzyalpha#4043") //SHY LYSOL NAME
+                    {
+                        string fontSize = "1.5";
+                        string fontSize1 = "1";
+                        string fontSize2 = "0.8"; //HELP HELP HELP
+                        string fontSize3 = "0.5";
+                        //LYSOL TITLE START
+                        string shl0 = $"<size={fontSize3}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.shl1), "☀")}</size>";
+                        string shl1 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.shl1), "S")}</size>";
+                        string shl2 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.shl2), "l")}</size>";
+                        string shl3 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.shl3), "e")}</size>";
+                        string shl4 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.shl4), "e")}</size>";
+                        string shl5 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.shl5), "p")}</size>";
+                        string shl6 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.shl6), "y ")}</size>";
+                        string shl7 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.shl7), "b")}</size>";
+                        string shl8 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.shl8), "e")}</size>";
+                        string shl9 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.shl9), "a")}</size>";
+                        string shl10 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.shl0), "n")}</size>";
+                        string shl11 = $"<size={fontSize3}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.shl0), "☀")}</size>";
+                        //LYSOL NAME START
+                        string sh0 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.shl9), "☀")}</size>";
+                        string sh1 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.shl8), "S")}</size>";
+                        string sh2 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.shl7), "h")}</size>";
+                        string sh3 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.shl6), "y")}</size>";
+                        string sh4 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.Hitman), "♡")}</size>";
+                        string sh5 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.shl6), "L")}</size>";
+                        string sh6 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.shl5), "y")}</size>";
+                        string sh7 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.shl4), "s")}</size>";
+                        string sh8 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.shl3), "o")}</size>";
+                        string sh9 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.shl2), "l")}</size>";
+                        string sh10 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.shl1), "☀")}</size>";
+
+                        string shname = shl0 + shl1 + shl2 + shl3 + shl4 + shl5 + shl6 + shl7 + shl8 + shl9 + shl10 + shl11 + "\r\n" + sh0 + sh1 + sh2 + sh3 + sh4 + sh5 + sh6 + sh7 + sh8 + sh9 + sh10;
+
+                        client.Character.RpcSetName($"{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.jss8), shname)}");
+                        Main.devNames.Add(client.Character.PlayerId, rname);
+                    }
+                    if (client.FriendCode is "deepstag#0210") //BLOODANGELSIX
+                    {
+                        string fontSize = "1.5";
+                        string fontSize1 = "1";
+                        string fontSize2 = "0.8";
+                        string fontSize3 = "0.5";
+                        //BLOODANGELSIX TITLE START
+                        string ban0 = $"<size={fontSize3}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ban1), "☀")}</size>";
+                        string ban1 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ban1), "W")}</size>";
+                        string ban2 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ban2), "a")}</size>";
+                        string ban3 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ban3), "r")}</size>";
+                        string ban4 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ban4), "h")}</size>";
+                        string ban5 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ban5), "a")}</size>";
+                        string ban6 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ban6), "m ")}</size>";
+                        string ban7 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ban7), "m")}</size>";
+                        string ban8 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ban8), "e")}</size>";
+                        string ban9 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ban9), "r")}</size>";
+                        string ban10 = $"<size={fontSize3}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ban0), "☀")}</size>";
+                        //BLOODANGELSIX NAME START
+                        string ba0 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ban9), "☀")}</size>";
+                        string ba1 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ban9), "B")}</size>";
+                        string ba2 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ban8), "l0")}</size>";
+                        string ba3 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ban7), "0d")}</size>";
+                        string ba4 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ban6), "A")}</size>";
+                        string ba5 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ban5), "n")}</size>";
+                        string ba6 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ban4), "ge")}</size>";
+                        string ba7 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ban3), "l")}</size>";
+                        string ba8 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ban2), "s")}</size>";
+                        string ba9 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ban1), "I")}</size>";
+                        string ba10 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ban0), "X")}</size>";
+                        string ba11 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ban0), "☀")}</size>";
+
+                        string banme = ban0 + ban1 + ban2 + ban3 + ban4 + ban5 + ban6 + ban7 + ban8 + ban9 + ban10 +"\r\n" + ba0 + ba1 + ba2 + ba3 + ba4 + ba5 + ba6 + ba7 + ba8 + ba9 + ba10 + ba11;
+
+                        client.Character.RpcSetName($"{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.jss8), banme)}");
+                        Main.devNames.Add(client.Character.PlayerId, rname);
+                    }
                     //friendcodes 1 (closed)
-                    if (client.FriendCode is "leafywinch#2382" or "jailtoy#0133" or "alphabye#3999" or "walkingdice#5285" or "scoopgooey#9820" or "innfancy#2127" or "artfulcod#9001" or "frostmolar#1359" or "everyswap#7877" or "iconicoar#2342" or "steamquits#4906" or "ruffseated#8388" or "nicestone#7505" or "ravencalyx#2196" or "iconicpun#5624" or "flathomey#1351" or "talentsalt#4516" or "namebasic#9510" or "waterpupal#6193" or "privyeater#0729" or "tigerbitty#4312" or "honeytired#7330" or "waryclaw#7449" or "basicstork#6394" or "mobileswap#4514" or "sparebank#8022" or "artfulcod#9001")
+                    if (client.FriendCode is "leafywinch#2382" or "jailtoy#0133" or "walkingdice#5285" or "scoopgooey#9820" or "innfancy#2127" or "artfulcod#9001" or "frostmolar#1359" or "everyswap#7877" or "iconicoar#2342" or "steamquits#4906" or "ruffseated#8388" or "nicestone#7505" or "ravencalyx#2196" or "iconicpun#5624" or "flathomey#1351" or "talentsalt#4516" or "namebasic#9510" or "waterpupal#6193" or "privyeater#0729" or "honeytired#7330" or "waryclaw#7449" or "basicstork#6394" or "mobileswap#4514" or "artfulcod#9001")
                     {
                         string fontSize = "1.5"; //name
                         string fontSize1 = "0.8"; //title
@@ -494,7 +599,7 @@ namespace TownOfHost
                         Main.devNames.Add(client.Character.PlayerId, rname);
                     }
                     //friendcodes 2 (closed)
-                    if (client.FriendCode is "sunnysolid#5221"  or "beansimple#8487"  or "fuzzytub#9375" or "earthygale#6105" or "bestgalaxy#3894" or "earthlycat#1182" or "Cornolive#0328" or "justlotto#9472" or "numbmoss#9309" or "mistygulf#7381" or "singlequay#0547" or "dupletoad#0685" or "raggedsofa#2041" or "wavealpha#6327" or "easybling#2701" or "livemice#2626" or "losermore#5811" or "toadcomic#5559" or "publictick#2626" or "secularjam#2662" or "planset#7735" or "newsconic#2387" or "onlycaret#1986" or "Unseenkelp#2225" or "sorrymoon#7693")
+                    if (client.FriendCode is "sunnysolid#5221"  or "beansimple#8487"  or "fuzzytub#9375" or "earthygale#6105" or "bestgalaxy#3894" or "earthlycat#1182" or "Cornolive#0328" or "justlotto#9472" or "numbmoss#9309" or "mistygulf#7381" or "singlequay#0547" or "dupletoad#0685" or "raggedsofa#2041" or "wavealpha#6327" or "easybling#2701" or "livemice#2626" or "losermore#5811" or "toadcomic#5559" or "publictick#2626" or "secularjam#2662" or "planset#7735" or "newsconic#2387" or "onlycaret#1986" or "unseenkelp#2225")
                     {
                         string fontSize = "1.5"; //name
                         string fontSize1 = "0.8"; //title
@@ -506,7 +611,7 @@ namespace TownOfHost
                         Main.devNames.Add(client.Character.PlayerId, rname);
                     }
                     //friendcodes 3 (open)
-                    if (client.FriendCode is "barelybusy#6628" or "loftystool#2997" or "shotsocket#8722" or "staremetal#5307" or "sphinxchic#9616" or "jibtabular#7970" or "risingyawn#1027" or "spicysword#8701" or "sageday#8929")
+                    if (client.FriendCode is "barelybusy#6628" or "loftystool#2997" or "shotsocket#8722" or "staremetal#5307" or "sphinxchic#9616" or "jibtabular#7970" or "risingyawn#1027" or "spicysword#8701" or "sageday#8929" or "deepcookie#3432" or "sunkenmoon#7397" or "fallardent#0828")
                     {
                         string fontSize = "1.5"; //name
                         string fontSize1 = "0.8"; //title
@@ -518,7 +623,7 @@ namespace TownOfHost
                         Main.devNames.Add(client.Character.PlayerId, rname);
                     }
                     //allie's disc 1 (open)
-                    if (client.FriendCode is "beefystaff#5945" or "uncutminer#6550" or "enoughset#6278" or "voicespicy#4974" or "snuglife#4373" or "retroozone#9714" or "beespotty#5432" or "dovebliss#9271" or "vestruby#9127" or "sageday#8929" or "lysol#5261" or "available#2356")
+                    if (client.FriendCode is "beefystaff#5945" or "uncutminer#6550" or "enoughset#6278" or "voicespicy#4974" or "retroozone#9714" or "beespotty#5432" or "dovebliss#9271" or "vestruby#9127" or "enoughset#6278" or "available3#2356" or "sharpdrone#0857" or "deepstag#0210" or "acuteload#3485" or "goldcable#4166" or "tidymall#0483" or "vanvinous#8649" or "hugeglobe#9125" or "beespotty#5432" or "onionaway#3328")
                     {
                         string fontSize = "1.5"; //name
                         string fontSize1 = "0.8"; //title
@@ -530,7 +635,7 @@ namespace TownOfHost
                         Main.devNames.Add(client.Character.PlayerId, rname);
                     }
                     //Family disc 1 (open)
-                    if (client.FriendCode is "alphabye#3999" or "snuglife#4373")
+                    if (client.FriendCode is "alphabye#3999" or "snuglife#4373" or "sorrymoon#7693" or "sageday#8929" or "tigerbitty#4312" or "coppermoor#5288" or "sparebank#8022" or "mightydoor#6974")
                     {
                         string fontSize = "1.5"; //name
                         string fontSize1 = "0.8"; //title

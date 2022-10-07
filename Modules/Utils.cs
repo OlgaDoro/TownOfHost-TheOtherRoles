@@ -893,7 +893,7 @@ namespace TownOfHost
             string fontSize3 = "2";
             string fontSize5 = "0.5";
             //DISCORD SUFFIX TITLE
-            string all00 = $"<size={fontSize5}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr0), "♡")}</size>";
+            string all00 = $"<size={fontSize5}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr0), "☀")}</size>";
             string all0 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr1), "/")}</size>";
             string all1 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr2), "d")}</size>";
             string all2 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr3), "i")}</size>";
@@ -902,9 +902,9 @@ namespace TownOfHost
             string all6 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr6), "o")}</size>";
             string all7 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr7), "r")}</size>";
             string all8 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr8), "d")}</size>";
-            string all99 = $"<size={fontSize5}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr9), "♡")}</size>";
+            string all99 = $"<size={fontSize5}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr9), "☀")}</size>";
             //DISCORD SUFFIX NAME
-            string Alld0 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr1), "♡")}</size>";
+            string Alld0 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr1), "☀")}</size>";
             string Alld1 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr2), "A")}</size>";
             string Allds = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr3), "l")}</size>";
             string Alld2 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr3), "l")}</size>";
@@ -913,9 +913,9 @@ namespace TownOfHost
             string Alld5 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr5), "T")}</size>";
             string Alld6 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr6), "O")}</size>";
             string Alld7 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr7), "R")}</size>";
-            string Alld8 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr8), "♡")}</size>";
+            string Alld8 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr8), "☀")}</size>";
             //HOSTING SUFFIX TITLE
-            string alh00 = $"<size={fontSize5}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr0), "♡")}</size>";
+            string alh00 = $"<size={fontSize5}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr0), "☀")}</size>";
             string alh0 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr1), "S")}</size>";
             string alh1 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr2), "p")}</size>";
             string alh2 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr3), "a")}</size>";
@@ -925,9 +925,9 @@ namespace TownOfHost
             string alh6 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr6), "e")}</size>";
             string alh7 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr7), "a")}</size>";
             string alh8 = $"<size={fontSize1}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr8), "n")}</size>";
-            string alh99 = $"<size={fontSize5}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr9), "♡")}</size>";
+            string alh99 = $"<size={fontSize5}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr9), "☀")}</size>";
             //HOSTING SUFFIX NAME
-            string Alhd0 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr9), "♡")}</size>";
+            string Alhd0 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr9), "☀")}</size>";
             string Alhd1 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr8), "A")}</size>";
             string Alhds = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr7), "l")}</size>";
             string Alhd2 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr6), "l")}</size>";
@@ -936,7 +936,7 @@ namespace TownOfHost
             string Alhd5 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr3), "T")}</size>";
             string Alhd6 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr2), "O")}</size>";
             string Alhd7 = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr1), "R")}</size>";
-            string Alhd8 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr0), "♡")}</size>";
+            string Alhd8 = $"<size={fontSize}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.ukr0), "☀")}</size>";
             //REST OF THE NAMES PL FIX THEM
             string none1 = $"<size={fontSize3}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.yellowcolor), "Allie")}</size>";
             string bname = $"<size={fontSize2}>{Helpers.ColorString(Utils.GetRoleColor(CustomRoles.yellowcolor), "Allie")}</size>";

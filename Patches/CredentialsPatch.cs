@@ -46,7 +46,7 @@ namespace TownOfHost
             private static TMPro.TextMeshPro ErrorText;
             static void Postfix(VersionShower __instance)
             {
-                Main.credentialsText = $"\r\n<color={Main.modColor}>Town Of Allie:\r\nSexy Krapus Edition</color>\r\nv{Main.PluginVersion}b";
+                Main.credentialsText = $"\r\n<color={Main.modColor}>Town Of Allie:\r\nSexy Krampus Edition</color>\r\nv{Main.PluginVersion}c";
                 Main.versionText = $"\r\nTown Of Allie: Sexy Krampus Edition v{Main.PluginVersion}b";
                 if (ThisAssembly.Git.Branch != "main")
                 {
